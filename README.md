@@ -1,20 +1,20 @@
-# NodeJs, Express, EJS & MongoDB Blog - CRUD
+# Bloggers
+# NodeJs, Express, EJS & MongoDB Blog  
 
-![alt text](/readme-image.jpg?raw=true)
+![alt text](/home-img.png?raw=true)
 
 ## You need:
 - NodeJs
-- Database (MongoDB) Free Cluster
+- Database (MongoDB) webiste or you can install MongoDB application [MongoDB](https://www.mongodb.com/)
 
-## Setup Database
-Sign up for MongoDB free database cluster:  [MongoDB](https://www.mongodb.com/)
+
 
 ## Create .env file
 Create a .env file to store your credentials. Example below:
 
 ```
 MONGODB_URI=mongodb+srv://<username>:<password>@clusterName.xxxxxxx.mongodb.net/blog
-JWT_SECRET=MySecretBlog
+JWT_SECRET=**********
 ```
 
 ## Installation
@@ -26,4 +26,3 @@ $ npm run dev
 ```
 
 
-# Bloggers
